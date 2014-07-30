@@ -2,5 +2,6 @@
 
 App.Router.map ()->
   # @resource('posts')
-  @resource 'users'
+  location: 'auto'
+  rootURL: '/'
 
