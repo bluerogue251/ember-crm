@@ -1,7 +1,7 @@
 # For more information see: http://emberjs.com/guides/routing/
 
 App.Router.map ()->
-  # @resource('posts')
   location: 'auto'
   rootURL: '/'
+  @resource 'leads', path: '/'
 
