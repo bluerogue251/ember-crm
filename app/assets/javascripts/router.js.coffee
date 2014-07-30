@@ -2,4 +2,5 @@
 
 App.Router.map ()->
   # @resource('posts')
+  @resource 'users'
 
